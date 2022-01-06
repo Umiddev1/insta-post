@@ -1,0 +1,31 @@
+.img-modals {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.651);
+  display: none;
+}
+.img-modal {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.img-modal__img {
+  width: 582px;
+  height: 582px;
+}
+.img-active {
+  display: block;
+}
+.img-modal__close {
+  font-size: 50px;
+  position: absolute;
+  right: 100px;
+  top: -20px;
+  cursor: pointer;
+  color: #aaa;
+}

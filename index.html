@@ -7,9 +7,269 @@
   <title>Lesson</title>
   <link rel="stylesheet" href="css/flexboxgrid.min.css">
   <link rel="stylesheet" href="css/main.min.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
+  <header class="insta-header">
+    <div class="insta-header__container container">
+      <div class="insta-header__group between-md between-sm">
+        <div class="insta-header__logos">
+          <a class="insta-header__logolink" href="#">
+            <img class="insta-header__logo" src="img/instagram-logo.svg" alt="logo">
+          </a>
+        </div>
+        <div class="insta-header__forms">
+          <form class="insta-header__form" action="#">
+            <input class="insta-header__inp" type="search" placeholder="search" aria-label="form">
+            <i class="insta-header__search far fa-search"></i>
+            <i class="insta-header__close fas fa-times-circle"></i>
+          </form>
+        </div>
+        <div class="insta-header__icons">
+          <ul class="insta-header__list"> 
+            <li class="insta-header__item">
+              <a class="insta-header__link" href="#"><img src="img/home.svg" alt="home"></a>
+            </li>
+            <li class="insta-header__item">
+              <a class="insta-header__link" href="#"><img src="img/direct.svg" alt="home"></a>
+            </li>
+            <li class="insta-header__item">
+              <a class="insta-header__link" href="#"><img src="img/plus-insta.svg" alt="home"></a>
+            </li>
+            <li class="insta-header__item">
+              <a class="insta-header__link" href="#"><img src="img/explore.svg" alt="home"></a>
+            </li>
+            <li class="insta-header__item">
+              <a class="insta-header__link" href="#"><img src="img/like.svg" alt="home"></a>
+            </li>
+            <li class="insta-header__item">
+              <a class="insta-header__link" href="#"><img class="insta-header__iam" src="img/enshteyn.jpg" alt="home"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="insta-personal personal"> 
+      <div class="personal__container container">
+        <div class="personal__wrapper">
+          <div class="personal__imgs col-md-3">
+            <img class="personal__img" src="img/img-user.jpg" alt="user">
+          </div>
+          <div class="personal__data col-md-9">
+            <div class="personal__name">
+              <p class="personal__text">muhammadali_esh...</p>
+              <button class="personal__follower-btn">Отправить сообщение</button>
+              <button class="personal__user-btn"><i class="fas fa-user-check"></i></button>
+              <button class="personal__down-btn"><span class="down"><i class="fal fa-chevron-down"></i></span><span class="up"><i class="fal fa-chevron-up"></i></span></button>
+              <button class="personal__dood">...</button>
+            </div>
+            <div class="personal__follower follower">
+              <ul class="follower__list">
+                <li class="follower__item">
+                  <p class="follower__text"><span class="follower__number">784</span> публикаций</p>
+                </li>
+                <li class="follower__item">
+                  <p class="follower__text"><span class="follower__number">542тыс.</span> подписчиков</p>
+                </li>
+                <li class="follower__item">
+                  <p class="follower__text"><span class="follower__number">162</span> подписок</p>
+                </li>
+              </ul>
+            </div>
+            <div class="personal__founder founder">
+              <h3 class="founder__name">Muhammadali Eshonqulov</h3>
+              <p class="founder__of">Founder of:</p>
+              <ul class="founder__list">
+                <li class="founder__item">
+                  <span class="founder__line">— </span><a class="founder__link" href="https://www.instagram.com/Biznes.kvadrat/" target="_blank">@Biznes.kvadrat</a>
+                </li>
+                <li class="founder__item">
+                  <span class="founder__line">— </span><a class="founder__link" href="https://www.instagram.com/Patronlar_ligasi/" target="_blank">@Patronlar_ligasi</a>
+                </li>
+                <li class="founder__item">
+                  <span class="founder__line">— </span><a class="founder__link" href="https://www.instagram.com/Yuksalish_leaders_academy/" target="_blank">Yuksalish_leaders_academy</a>
+                </li>
+              </ul>
+              <p class="founder__official">Rasmiy saytimiz 👇</p>
+              <p><a class="founder__site" href="https://aliacademy.uz/uz" target="_blank">aliacademy.uz</a></p>
+              <div class="founder__follower">
+                <p class="founder__follower-text">Подписаны <span class="founder__follower-span">jahongir_xojayev</span>  и <span class="founder__follower-span">programmer_pro01</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="insta-stores">
+      <div class="container">
+        <div class="insta-post__stores stores">
+          <ul class="stores__list"> 
+            <li class="stores__item center-xs">
+              <a href="#">
+                <div class="stores__imgs">
+                  <img class="stores__img" src="img/insta-stores1.jpg" alt="stores-img">
+                </div>
+                <p class="stores__text">Instagram</p>
+              </a>
+            </li>
+            <li class="stores__item center-xs">
+              <a href="#">
+                <div class="stores__imgs">
+                  <img class="stores__img" src="img/insta-stores2.jpg" alt="stores-img">
+                </div>
+                <p class="stores__text">Telegram</p>
+              </a>
+            </li>
+            <li class="stores__item center-xs">
+              <a href="#">
+                <div class="stores__imgs">
+                  <img class="stores__img" src="img/insta-stores3.jpg" alt="stores-img">
+                </div>
+                <p class="stores__text">YouTube</p>
+              </a>
+            </li>
+            <li class="stores__item center-xs">
+              <a href="#">
+                <div class="stores__imgs">
+                  <img class="stores__img" src="img/insta-stores4.jpg" alt="stores-img">
+                </div>
+                <p class="stores__text">Sayohat</p>
+              </a>
+            </li>
+            <li class="stores__item center-xs">
+              <a href="#">
+                <div class="stores__imgs">
+                  <img class="stores__img" src="img/insta-stores5.jpg" alt="stores-img">
+                </div>
+                <p class="stores__text">TikTok</p>
+              </a>
+            </li>
+            <li class="stores__item center-xs">
+              <a href="#">
+                <div class="stores__imgs">
+                  <img class="stores__img" src="img/insta-stores6.jpg" alt="stores-img">
+                </div>
+                <p class="stores__text">Facebook</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="insta-post">
+      <div class="insta-post__container container">
+        <div class="insta-post__tab tab">
+          <div class="tab__wrapper">
+            <ul class="tab__list">  
+              <li class="tab__item active-top">
+                <button class="tab__btn active btn-one"> <i class="fal fa-th"></i> posts</button>
+              </li>
+              <li class="tab__item">
+                 <button class="tab__btn btn-two"><i class="fal fa-play-circle"></i> vidoes</button>
+              </li>
+              <li class="tab__item">
+                 <button class="tab__btn btn-three"><i class="fas fa-user-tie"></i> imgs</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="insta-post__content content">
+          <ul class="content__list"> 
+            <!-- <li class="content__item"><div class="content__inner">
+              <a class="content__link" href="#">
+                <img class="content__img" src="media/img/img-yuksalish.jpg" alt="yuk">
+              </a>
+            </div></li>
+            <li class="content__item"><div class="content__inner">
+              <a class="content__link" href="#">
+                <img class="content__img" src="media/img/img-yuksalish.jpg" alt="yuk">
+              </a>
+            </div></li>
+            <li class="content__item"><div class="content__inner">
+              <a class="content__link" href="#">
+                <img class="content__img" src="media/img/img-yuksalish.jpg" alt="yuk">
+              </a>
+            </div></li>
+            <li class="content__item"><div class="content__inner">
+              <a class="content__link" href="#">
+                <img class="content__img" src="media/img/img-yuksalish.jpg" alt="yuk">
+              </a>
+            </div></li>
+            <li class="content__item"><div class="content__inner">
+              <a class="content__link" href="#">
+                <img class="content__img" src="media/img/img-yuksalish.jpg" alt="yuk">
+              </a>
+            </div></li>
+            <li class="content__item"><div class="content__inner">
+              <a class="content__link" href="#">
+                <img class="content__img" src="media/img/img-yuksalish.jpg" alt="yuk">
+              </a>
+            </div></li>
+            <li class="content__item"><div class="content__inner">
+              <a class="content__link" href="#">
+                <img class="content__img" src="media/img/img-yuksalish.jpg" alt="yuk">
+              </a>
+            </div></li>
+            <li class="content__item"><div class="content__inner">
+              <a class="content__link" href="#">
+                <img class="content__img" src="media/img/img-yuksalish.jpg" alt="yuk">
+              </a>
+            </div></li>
+            <li class="content__item"><div class="content__inner">
+              <a class="content__link" href="#">
+                <img class="content__img" src="media/img/img-yuksalish.jpg" alt="yuk">
+              </a>
+            </div></li> -->
+          </ul>
+          <ul class="content__list-two">
 
+          </ul>
+          <ul class="content__list-three">
+            
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="user-modal">
+      <div class="modal center-xs">
+        <img class="user-modal__img" src="img/img-user.jpg" alt="modal-user">
+        <p class="user-modal__text">Отменить подписку на <span>@muhammadali_eshonqulov</span>?</p>
+        <ul class="user-modal__list">
+          <li class="user-modal__item"><a class="user-modal__link" href="#">Отменить подписку</a></li>
+          <li class="user-modal__item"><a class="user-modal__link user-modal__link-close" href="#">Отмена</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="modal-doods dood">
+      <div class="dood__wrapper">
+        <ul class="dood__list center-xs">
+          <li class="dood__item">
+            <a class="dood__link" href="#">Заблокировать этого пользователя</a>
+          </li>
+          <li class="dood__item">
+            <a class="dood__link" href="#">Ограничить доступ</a>
+          </li>
+          <li class="dood__item">
+            <a class="dood__link" href="#">Пожаловаться на пользователя</a>
+          </li>
+          <li class="dood__item">
+            <a class="dood__link dood__link-close" href="#">Отмена</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="img-modals">
+      
+      <div class="img-modal center-xs">
+        <span class="img-modal__close"><i class="far fa-times"></i></span>
+          <img class="img-modal__img" src="" alt="sdfsd">
+      </div>
+    </div>
+  </main>
+  <script src="js/object.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

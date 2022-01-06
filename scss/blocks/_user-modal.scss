@@ -1,0 +1,71 @@
+.user-modal {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.651);
+  display: none;
+}
+.modal {
+  background-color: #fff;
+  width: 400px;
+  height: 293px;
+  padding-top: 32px;
+  border-radius: 12px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  animation-name: zoomIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@keyframes zoomIn {
+  0% {
+  opacity: 0;
+  transform: scale3d(.3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  } 
+.user-modal__img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.user-modal__text {
+  font-size: 14px;
+  margin: 16px 0;
+}
+.user-modal__text span{
+  cursor: pointer;
+}
+.user-modal__list {
+  margin-top: 35px;
+}
+.user-modal__item:nth-child(1) {
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+.user-modal__item:nth-child(1) a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ed4956;
+}
+.user-modal__item {
+  padding: 16px 4px;
+}
+.user-modal__item:nth-child(2) a {
+  font-size: 14px;
+  color: $color-text;
+}
+
+.modal-active {
+  display: block;
+}
+.backgr {
+  background-color: rgba(0, 0, 0, 0.068);
+}

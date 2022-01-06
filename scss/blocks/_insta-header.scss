@@ -1,0 +1,73 @@
+.insta-header {
+  padding-top: 12px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  &__group {
+    display: flex;
+    align-items: center;
+  }
+  &__list {
+    display: flex;
+  }
+  &__forms {
+    margin-left: 30px;
+  }
+  &__form {
+    position: relative;
+    width: 100%;
+  }
+  &__inp {
+    width: 130%;
+    padding: 9px 0;
+    padding-left: 30px;
+    position: relative;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  &__search {
+    cursor: pointer;
+    position: absolute;
+    left: 15px;
+    top: 16px;
+    font-size: 9px;
+  }
+  &__close {
+    position: absolute;
+    right: -55px;
+    top: 12px;
+    font-size: 12px;
+    color: #ccc;
+    display: none;
+  }
+  &__iam {
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  &__item {
+    margin-right: 22px;
+  }
+  &__item:nth-child(6) {
+    margin-right: 0;
+  }
+
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}

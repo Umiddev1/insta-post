@@ -1,0 +1,54 @@
+.dood {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.651);
+  display: none;
+}
+.dood__wrapper {
+  background-color: #fff;
+  width: 400px;
+  height: 192px;
+  // padding-top: 32px;
+  border-radius: 12px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  animation-name: zoomIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+@keyframes zoomIn {
+  0% {
+  opacity: 0;
+  transform: scale3d(.3, .3);
+  }
+  50% {
+  opacity: 1;
+  }
+  } 
+.dood__item {
+  padding: 14px 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+.dood__item:nth-child(4) {
+  border-bottom: none;
+}
+.dood__link {
+  font-size: 14px;
+  color: $color-text;
+}
+.dood__item:nth-child(1) .dood__link,
+.dood__item:nth-child(2) .dood__link,
+.dood__item:nth-child(3) .dood__link{
+  font-weight: 700;
+  color: #ed4956;
+}
+
+.dood-active {
+  display: block;
+}

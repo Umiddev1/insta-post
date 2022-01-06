@@ -1,0 +1,46 @@
+.founder__name {
+  font-weight: 500;
+  color: $color-text;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.founder__of {
+  margin-bottom: 5px;
+}
+.founder__item {
+  margin-bottom: 5px;
+}
+.founder__link {
+  font-size: 16px;
+  color: #00376b;
+}
+.founder__official {
+  font-size: 16px;
+  color: $color-text;
+  margin-bottom: 5px;
+}
+.founder__site {
+  font-size: 16px;
+  color: #00376b;
+  display: inline-block;
+  margin-bottom: 14px;
+}
+.founder__follower-text {
+  font-size: 12px;
+  color: #888;
+}
+.founder__follower-span {
+  font-weight: 600;
+  color: $color-text;
+  cursor: pointer;
+}
+.up {
+  display: none;
+}
+
+.found-active {
+  display: block;
+}
+.found-noactive {
+  display: none;
+}
